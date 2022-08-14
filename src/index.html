@@ -14,7 +14,8 @@
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
-                    <img src="img/logo.png" alt="logo">
+                    <img src="img/logo.png" alt="logo" class="logo__main">
+                    <img src="img/logo768px.png" alt="logo768px" class="hidden">
                 </a>
                 <div class="header__official">
                     Официальный представитель
@@ -22,7 +23,7 @@
                 </div>
                 <div class="header__contacts">
                     <a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
-                    <button class="button">Заказать звонок</button>
+                    <button class="button button_md">Заказать звонок</button>
                 </div>
             </header>
             <div class="promo__wrapper">
@@ -55,22 +56,38 @@
         <div class="container">
             <h2 class="title advantages_mb">Наши преимущества</h2>
             <div class="advantages__wrapper">
-                <div class="advantages__item">
-                    <img src="icons/cup.png" alt="cup">
-                    <div class="advantages__subtitle">Делимся опытом</div>
-                    <div class="advantages__descr">Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div> 
+                <div class="advantages__icons">
+                    <img src="icons/cup.png" alt="cup" class="icon">
+                    <span class="advantages__subtitle">Делимся опытом</span>
+                    <span class="advantages__descr">Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</span>
                 </div>
-                <div class="advantages__item">
-                    <img src="icons/heart.png" alt="cup">
-                    <div class="advantages__subtitle">Заботимся о здоровье</div>
-                    <div class="advantages__descr">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div> 
-                </div>
-                <div class="advantages__item">
-                    <img src="icons/shoe.png" alt="cup">
-                    <div class="advantages__subtitle">Учим бегать</div>
-                    <div class="advantages__descr">Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России - <a href="#" class="link">I LOVE RUNNING</a></div> 
-                </div>
+                <div class="advantages__icons">
+                    <img src="icons/heart.png" alt="heart" class="icon">
+                    <span class="advantages__subtitle">Заботимся о здоровье</span>
+                    <span class="advantages__descr">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</span>
+                </div> 
+                <div class="advantages__icons">
+                    <img src="icons/shoe.png" alt="shoe" class="icon">
+                    <span class="advantages__subtitle">Учим бегать</span>
+                    <span class="advantages__descr">Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России - <a class="link">I love running</a></span>
+                </div> 
             </div>
+        </div>
+    </section>
+    <section class="consultation">
+        <div class="container">
+            <h2 class="title title_color-white">Получите бесплатную консультацию <br> 
+                по подбору пульсометра</h2>
+            <div class="consultation__descr">
+                Просто заполните форму заявки <br>
+                и мы перезвоним вам в течении 10 минут
+            </div>
+            <form class="feed-form" action="#">
+                <input required name="name" placeholder="Ваше Имя" type="text">
+                <input required name="phone" placeholder="Ваш телефон" type="tel">
+                <input required name="email" placeholder="Ваш E-mail" type="email">
+                <button class="button button_submit">заказать консультацию</button>
+            </form>
         </div>
     </section>
 </body>
