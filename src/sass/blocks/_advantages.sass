@@ -2,29 +2,38 @@
     min-height: 473px
     padding: 73px 0 83px 0 
     &__wrapper
+        margin-top: 60px
         display: flex
         justify-content: space-around
         align-items: center
-    &_mb
-        margin-bottom: 60px
-    &__item
+    &__icons
         display: flex
         flex-direction: column
         justify-content: center
         align-items: center
         img
             width: 70px
-            height: 70px
     &__subtitle
-        margin-top: 35px
-        margin-bottom: 20px
+        margin-top: 30px
         font-weight: 700
         font-size: 18px
-        color: $text
+        line-height: 29px
         text-align: center
+        color: $text
     &__descr
+        margin-top: 20px
+        width: 273px
         font-weight: 300
         font-size: 14px
         text-align: center
+        line-height: 18px
         color: $text
-        width: 270px
+    span
+        &:nth-child(1)
+            width: 269px
+            height: 91px
+        &:nth-child(3)
+            width: 277px
+            height: 74px
+            
+
