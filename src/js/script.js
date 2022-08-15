@@ -1,1 +1,3 @@
-confirm("Вам есть 18?");
+$(document).ready(function(){
+    $('.carousel__inner').slick();
+  });
